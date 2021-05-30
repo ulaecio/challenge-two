@@ -1,0 +1,51 @@
+.home-container {
+    background: #E5E5E5;
+    margin-top: auto;
+    padding: 1px 1px 42% 1px;
+}
+
+.home-content {
+    background: #E5E5E5;
+}
+
+.text-title {
+    font-size: 48px;
+    line-height: 64px;
+    position: absolute;
+    width: 580px;
+    height: 128px;
+    left: 120px;
+    top: 179px;
+    color: #062847;
+}
+
+.text-subtitle {
+    position: absolute;
+    width: 612px;
+    height: 216px;
+    left: 120px;
+    top: 331px;
+    font-size: 20px;
+    line-height: 36px;
+    /* or 180% */
+    color: #5A6774;
+
+}
+
+.btn {
+    
+    line-height: 36px;
+    position: absolute;
+    width: 101px;
+    height: 40px;
+    left: 120px;
+    top: 595px;
+    border-radius: 10px;
+    
+    background-color: #1890FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    color: #ffffff;
+}
