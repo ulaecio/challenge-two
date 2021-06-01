@@ -12,10 +12,13 @@ const Home = () => {
         <p className="text-subtitle">
           Bem-vindos ao desafio do capítulo 3 do Bootcamp DevSuperior. <br />
         </p>
-      </div>
-      <button className="btn">
+        
+        <a href="/Search">
+        <button className="btn">
         <h1 className="btn-text">Comecar</h1>
       </button>
+        </a>
+      </div>
     </div>
   );
 };

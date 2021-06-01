@@ -7,6 +7,8 @@ const Navbar = () => {
             <h1>Github localizador</h1>
         </div>
     </nav>
+
+    
     );
 }
 
