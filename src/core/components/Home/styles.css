@@ -17,7 +17,6 @@
     top: 179px;
     color: #062847;
 }
-
 .text-subtitle {
     position: absolute;
     width: 612px;
@@ -28,9 +27,7 @@
     line-height: 36px;
     /* or 180% */
     color: #5A6774;
-
 }
-
   .btn {
     line-height: 36px;
     position: absolute;
@@ -56,5 +53,4 @@
     transition: 0.3s;
     cursor: pointer;
   }
-  
   .btn:hover {opacity: 1}
