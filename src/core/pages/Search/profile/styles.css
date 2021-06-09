@@ -1,0 +1,9 @@
+.user-container{
+    width: 90%;
+    height: 200px;
+    left: 120px;
+    margin: 8px;
+
+    background: #F5F5F5;
+    border-radius: 8px;
+}

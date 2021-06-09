@@ -1,35 +1,30 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles.css";
 
 const Search = () => {
-  const [name, setName] = useState('Ul')
 
-  const handleOnChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setName(event.target.value);
-  }
   return (
-    <div className="search-container">
-      <div className="search-content">
-        <h1 className="search-text-title">
-          Encontre um perfil Github
-        </h1>
+    <div className="search-container ">
+      <div className="search-content ">
+        <div className="search-text-title ">
+        <h1>Encontre um perfil Github</h1>
+        </div>
 
-        <input 
-          className="search-form" 
+        <div>
+        <input
+          className="search-form "          
           type="text" 
           placeholder="Buscar usuário github"
-          onChange={handleOnChange}
           />
-
-      </div>
-      <a href="/Search/Form">
-      <button className="search-btn">
-        <h1 className="search-btn-text">
-          Encontrar
-        </h1>
+          </div>
+          <div>
+          <a href="/Search/profile">
+      <button className="search-btn " placeholder="none">
+      Encontrar
       </button>
         </a>
-
+          </div>
+      </div>
     </div>
   );
 };

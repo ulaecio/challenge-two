@@ -1,56 +1,48 @@
 .home-container {
-    background: #E5E5E5;
-    padding: 1px 1px 1px 1px;
+    background: #fffcfc;
+    width: 100%;
+    height: 698px;
 }
 
 .home-content {
-    background: #E5E5E5;
-}
+    background: #ffffff;
+    width: 99%;
+    height: 640px;
+    margin: 120px 0px;
+} 
 
 .text-title {
-    font-size: 48px;
-    line-height: 64px;
-    position: absolute;
-    width: 580px;
-    height: 128px;
-    left: 120px;
-    top: 179px;
     color: #062847;
+    margin: 20px;
+    padding-left: 20px;
 }
+
 .text-subtitle {
-    position: absolute;
-    width: 612px;
-    height: 216px;
-    left: 120px;
-    top: 331px;
     font-size: 20px;
-    line-height: 36px;
+    margin: 20px;
+    line-height: 180%;
+    padding-left: 20px;
     /* or 180% */
     color: #5A6774;
 }
   .btn {
-    line-height: 36px;
-    position: absolute;
+    border-radius: 4px;
+    font-size: 97%;
     width: 101px;
     height: 40px;
-    left: 120px;
-    top: 595px;
-    left: 120px;
-    bottom: 265px;
-    right: 1219px;
-    border-radius: 4px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 8px;
-
     background-color: #1890FF;
     border: none;
     color: white;
-    padding: 16px 32px;
     opacity: 0.6;
     transition: 0.3s;
     cursor: pointer;
+    margin: 10px;
+    
   }
-  .btn:hover {opacity: 1}
+  .btn:hover {border-style: none; opacity: 1}
+
+  .div-btn{
+    margin: 20px;
+    padding-left: 45px;
+
+  }

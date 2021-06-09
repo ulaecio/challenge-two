@@ -5,16 +5,16 @@
     height: 62px;
     left: 0px;
     top: 0px;
-    bottom: 15px;
+    bottom: 0px;
+    right: 0px;
 }
 
 .col-1 {
-    color: rgba(255, 255, 255, 1);
     position: absolute;
-    width: 248px;
-    height: 32px;
-    left: 41px;
-    top: 15px;
     display: flex;
     align-items: center;
+    color: rgba(255, 255, 255, 1);
+    width: 248px;
+    margin-left: 20px;
+
 }
