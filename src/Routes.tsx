@@ -1,27 +1,27 @@
-import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
-import Navbar from './core/components/Home/Navbar';
-import Home from './core/components/Home';
-import Search from './core/pages/Search';
-import Form from './core/pages/Search/profile';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "./core/components/Home";
+import Navbar from "./core/components/Navbar";
+import Search from "./core/pages/Search";
+import Form from "./core/pages/Search/profile";
 
 const Routes = () => (
-    <BrowserRouter>
+  <BrowserRouter>
     <Navbar />
     <Route path="/" exact>
-        <Home />
+      <Home />
     </Route>
     <Switch>
-        <>
+      <>
         <Route path="/search">
-            <Search />
+          <Search />
         </Route>
         <Route path="/search/profile">
-            <Form />
+          <Form />
         </Route>
-        </>
+      </>
     </Switch>
-    </BrowserRouter>
+  </BrowserRouter>
 );
 
 export default Routes;

@@ -4,7 +4,9 @@ import "./styles.css";
 const Form = () => {
     return (
         <div className="user-container">
-            <h1>Perfil do usuário</h1>
+            <h1>
+               Dados do perfil
+            </h1>
         </div>
     );
 };
